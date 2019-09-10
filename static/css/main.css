@@ -349,7 +349,7 @@ footer ul {
     width:100%;
     height:300px;
 }
-.navbar-expand-lg .navbar-collapse{
+.navbar-nav{
     justify-content: flex-end
 }
 
@@ -383,6 +383,10 @@ footer ul {
     .navbar-nav li{
         padding-top:1em;
         text-align:right;
+    }
+    .pg2.about ul li{
+        width:100% !important;
+        margin:auto !important;
     }
   }
   @media only screen and (min-width: 768px) {
