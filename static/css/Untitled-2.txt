@@ -1,0 +1,16 @@
+<address>
+                <strong></strong>
+                    ANTARES SPACE TECHNOLOGIES & EXPLORATION,<br>
+                    Hi-Tech City,<br/>
+                    Hyderabad - 500000,<br/>
+                    email: support@aste.com<br/>
+                    Phone: +1 123 224 123
+            </address>
+            <address>
+                Fictional Adress:<br/>
+                ANTARES SPACE TECHNOLOGIES & EXPLORATION,<br/>
+                Space Center, <br/>
+                Latitude: 29.5602853,<br/>
+                Longitude: 29.5602853,<br/>
+                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=30&cad=rja&uact=8&ved=2ahUKEwjolqLWtL7kAhXMtY8KHd_MClIQoC4oATAdegQIERAH&url=http%3A%2F%2Fwww.google.com%2Fmaps%2Fspace%2Fiss&usg=AOvVaw36SPmkqMgH8UqGGIHbDhNw"></a>Find me on maps</a>
+            </address>
