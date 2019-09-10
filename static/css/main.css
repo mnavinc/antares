@@ -232,24 +232,19 @@ section.pg5{
     list-style:none;
     display:flex;
     justify-content: space-between;
-    /* flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between */
+    align-items: center
+}
+.page-text ul li .card{
+    height:220px;
 }
 .page-text ul li{
-    display: inline-block;
-    text-align: center;
-    /*max-width: 300px;*/
-    /* height:300px; */
-    /* align-items:center;
-    justify-content: center; */
-    background: rgba(255,255,255,0.5);
-    padding: 1em;
-    position:relative;
-    width:19%;
-    margin:0 0.5%;
+    text-align:center;
 }
+.page-text ul li svg {
+    margin: auto;
+    width: 5em;
+}
+
 .page-text ul li i{
     display:block;
     height:100px;
@@ -259,7 +254,7 @@ section.pg5{
 .page-text ul li p{
     width:100%;
     text-align:center;
-    height: 32px
+    height: 300px;
 }
 .page-text ul li strong {
     font-size: 1.4em;
@@ -289,25 +284,6 @@ footer ul {
     background: #1e1e1e;
     display: inline;
     color: #fff;
-}
-.pg2.about ul {
-
-    list-style: none;
-    height: 50%;
-    display: flex;
-    /*align-items: center;*/
-    flex-direction: row;
-    padding:5px;
-    margin:30px;
-  display:flex;
-  flex-direction:row;
-    /*flex-grow: 1;
-    flex-basis: min-content;
-    flex-shrink: inherit;*/
-
-
-  margin:5px;
-
 }
 .pg2.about ul li {
 
