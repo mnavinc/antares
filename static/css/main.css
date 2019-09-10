@@ -16,9 +16,7 @@ body{
     overflow-x: hidden;
     background-color:#000
 }
-body.darkmode{
-    background-color:#fff;
-}
+
 .content-wrap{
     max-width:1280px;
     margin:auto;
@@ -365,5 +363,34 @@ footer ul {
         margin:auto !important;
     }
   }
-  @media only screen and (min-width: 768px) {
-  }
+
+/*DarkMode*/
+    body.darkmode, body.darkmode header, body.darkmode footer{
+        background-color:#000;
+        color:#fff;
+    }
+    body.darkmode section.pg3{
+        background-color:rgba(0,0,0,0.5);
+        color:#fff;
+    }
+    body.darkmode section.pg2{
+        background-color:rgba(0,0,0,0.25);
+        color:#fff;
+    }
+    body.darkmode section.pg4{
+        background-color:rgba(0,0,0,0.75);
+        color:#fff;
+    }
+    body.darkmode section.pg5{
+        background-color:rgba(0,0,0,1);
+        color:#fff;
+    }
+    body.darkmode .navbar-light .navbar-nav .active>.nav-link, 
+    body.darkmode .navbar-light .navbar-nav .nav-link.active, 
+    body.darkmode .navbar-light .navbar-nav .nav-link.show, 
+    body.darkmode .navbar-light .navbar-nav .show>.nav-link,
+    body.darkmode .navbar-light .navbar-nav>.nav-link,
+    body.darkmode .navbar-light .navbar-nav .nav-link{
+        color:#fff;
+    }
+
